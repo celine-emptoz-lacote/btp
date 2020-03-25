@@ -110,12 +110,43 @@ section h1{
 footer{
     display: flex;
     flex-direction: row;
-    height: 20vh;
-    
-
+    justify-content: space-around;
+    text-align: center;
+    height: 40vh;  
+    background-image: url(img/imageHeader.jpg);
     
 }
+
 .socialnetwork img{
     width: 32px;
+}
 
+
+.adresslogo img{
+    width: 30%;
+}
+
+.adresslogo , footer nav , .socialnetwork {
+    width: 30%;
+    margin: auto;
+}
+
+footer nav a {
+    display: block;
+    padding: 4%;
+    text-decoration: none;
+    background-color: #ffe433c0;
+    color: black;
+    border-bottom: 1px #ffe533 solid;
+}
+
+
+footer nav a:hover {
+    background-color: #ffe4338f;
+    border-bottom: 1px black solid;
+    color: white;
+}
+
+span {
+    font-weight: bold;
 }

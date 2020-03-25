@@ -3,8 +3,8 @@
 
 /** couleurs:
 
-jaune: #e7bf2a
-gris : #9d9d9d
+jaune: #ffe533
+gris : #a7a8a8
 bleu : #3e597d
 bois : #df9050 
 
@@ -15,17 +15,39 @@ body {
     padding: 0;
 }
 
-header div {
-    height: 40vh;
+header {
     background-image: url(img/imageHeader.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 10;  
 }
 
-header div h1, p {
-    text-align: right;
-    margin-right: 20%;
+header img {
+    width: 15%;
+    vertical-align: middle;
 }
 
+.header {
+    display: inline-block;
+    width: 50%;
+    margin-left: 30%;
+    vertical-align: middle;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffe533; 
+}
+
+header nav a {
+    width: 20%;
+    text-decoration: none;
+    padding: 1%;
+    border-bottom: 5px solid #ffe533;
+    color: black;
+}
+
+header nav a:hover {
+    padding: 1%;
+    background-color: #a7a8a8;
+    border-bottom: 5PX black solid;
+    color: white;
+}

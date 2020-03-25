@@ -51,3 +51,69 @@ header nav a:hover {
     border-bottom: 5PX black solid;
     color: white;
 }
+
+/*MAIN*/
+
+/*FONT*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/*FONT*/
+
+main{
+    font-family:'Oswald', sans-serif;;
+}
+
+    
+
+.container1{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow:7px 11px 45px 0px rgba(0,0,0,0.75);
+
+}
+.container1 img{
+    width: 50vw;
+}
+
+.container1 p{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+section h1{
+    text-align: center;
+}
+
+#lastsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column; 
+    width: 30%;  
+}
+
+.container2 img{
+    width:80%;
+
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    
+
+    
+}
+.socialnetwork img{
+    width: 32px;
+
+}

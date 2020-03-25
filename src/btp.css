@@ -60,7 +60,7 @@ header nav a:hover {
 
 main{
     font-family:'Oswald', sans-serif;
-    background:#aaa69d;
+    background:#e6e6e6;
 }
 
     
@@ -105,7 +105,7 @@ section h1{
     box-shadow:8px 8px 8px rgba(0,0,0,0.75);
     margin:2em;
     padding-bottom: 1em;
-    background:#ffdd59;
+    background:#fde274;
     text-align: center;
 }
 
@@ -146,20 +146,24 @@ footer{
     margin: auto;
 }
 
+footer nav {
+    text-align: center;
+}
+
 footer nav a {
     display: block;
-    padding: 4%;
+    margin: 6%;
     text-decoration: none;
-    background-color: #ffe433c0;
     color: black;
-    border-bottom: 1px #ffe533 solid;
+    background-color: #a7a8a8b2;
+    font-weight: bold;
+   
 }
 
 
 footer nav a:hover {
-    background-color: #ffe4338f;
-    border-bottom: 1px black solid;
-    color: white;
+    color: #ffe4338f;
+
 }
 
 span {

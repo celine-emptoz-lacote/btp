@@ -183,9 +183,47 @@ span {
 
 /*PAGE 2*/
 
-#page2{
+#main2 section{
     margin: auto;
-    width: 95%;
+    width: 80%;
+
+}
+#main2 h2{
+    background: #ffe533;
+    padding-left: 1em;
+    border-radius: 10px;
+    width: 40%;
+}
+#main2 p{
+    margin-bottom: 2em;
+}
+#main2 li{
+    font-weight: bold;
+    list-style-type: none;   
+}
+#main2 li img{
+    width: 20px;
+    
+}
+.picpg2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.picpg2 img{
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+}
+
+#skills{
+    background: #ffe533;
+    padding: 1em;
+    border-radius: 10px;
+    font-weight: bolder;
 }
 
 

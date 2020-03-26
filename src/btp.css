@@ -181,7 +181,7 @@ span {
     font-weight: bold;
 }
 
-/*PAGE 2*/
+/*PAGE PRESENTATION ENTREPRISE*/
 
 #main2 section{
     margin: auto;
@@ -209,7 +209,7 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 1em;
+    padding-bottom: 1em;
     margin-top: 1em;
 }
 
@@ -226,6 +226,12 @@ span {
     font-weight: bolder;
 }
 
+/* PAGE REALISATION*/
+
+#main3{
+    display: flex;
+    
+}
 
 
 

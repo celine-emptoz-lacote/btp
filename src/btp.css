@@ -180,3 +180,10 @@ footer nav a:hover {
 span {
     font-weight: bold;
 }
+
+/*PAGE 2*/
+
+#page2{
+    margin: auto;
+    width: 95%;
+}

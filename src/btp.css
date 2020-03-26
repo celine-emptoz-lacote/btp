@@ -259,6 +259,7 @@ label {
 input {
     width: 56%;
     height: 23px;
+    border-radius: 5px;
 }
 
 #demande {
@@ -266,11 +267,13 @@ input {
     width: 56.5%;
     height: 32px;
     margin-left: 1%;
+    border-radius: 5px;
 }
 
 textarea {
     display: block;
     width: 100%;
+    border-radius: 5px;
 }
 
 .mentionsDiv {

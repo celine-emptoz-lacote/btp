@@ -610,10 +610,7 @@ iframe {
 
 /* PAGE CONTACT*/
 @media screen and (max-width:480px) {
-    .contact p {
-        width: 80%;
-        margin: auto;
-    }
+   
 
     form {
         width: 90%;
@@ -627,6 +624,22 @@ iframe {
     }
     #demande {
         width: 95.5%;
+    }
+    .mentions {
+        width: 45%;
+    }
+
+    .adressContainer {
+        display: block;
+    }
+
+    .adressContainer div {
+        width: 80%;
+        margin: 3% auto;
+    }
+
+    .contact a {
+        width: 50%;
     }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {

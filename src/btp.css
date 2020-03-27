@@ -247,10 +247,8 @@ span {
 
 #slide img{
     width: 100%;
-    float:left;
     
-   
-    
+  
 }
 #slide figure {
     position: relative;
@@ -262,11 +260,6 @@ span {
     box-sizing: border-box;}
     
 
- img{
-    width: 100%;
-    float:left;
-   
-}
 
 @keyframes slider{
     0%{

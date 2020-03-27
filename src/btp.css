@@ -627,7 +627,11 @@ iframe {
    #main2 ul{
        padding: 0;
        margin-right: 2em;
+       margin-left: 1em;
 
+   }
+   #main2 li{
+       text-align: left;
    }
    #main2 h2{
        padding: 3%;

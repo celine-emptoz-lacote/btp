@@ -247,7 +247,7 @@ span {
 
 #slide img{
     width: 100%;
-    
+    float: left;
   
 }
 #slide figure {
@@ -610,62 +610,38 @@ iframe {
 
 /* PAGE CONTACT*/
  
-@media screen and (max-width:480px) {
-    form {
-        width: 100%;
-        text-align: left;
-    }
+/*PAGE PRESENTATION ENTREPRISE*/
 
-    label {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-    input {
-        width: 90%;
-    }
+@media screen and (max-width:480px){
+   #main2 img{
+      width: 80%;
+      margin-top: 2%;
+     
+     
+   }
+   .picpg2{
+       display: flex;
+       flex-direction: column;
+       margin-top: 2%;
+   }
+   #main2 ul{
+       padding: 0;
+       margin-right: 2em;
 
-    textarea {
-        width: 90%;
-    }
-    #demande {
-        width: 90.5%;
-    }
+   }
+   #main2 h2{
+       padding: 3%;
+   }
 
-    .mentions {
-        width: 50%;
-    }
-    
-    input[type="checkbox"] {  
-        width: 15%;
-    }
-
-    input[type="submit"] {
-        width: 40%;
-    }
-
+<<<<<<< HEAD
     #mentions{
         width: 3%;
     }
+=======
+>>>>>>> c2635f306a8540eaefbd2db25a96cd23575bc68b
 
-    .adressContainer {
-        display: block;
-    }
 
-    .adressContainer div {
-        width: 90%;
-        margin: 1% auto;
-    }
 
-    iframe {
-        margin-top: 4%;
-        margin-bottom: 4%;
-    }
-
-    .contact a {
-        width: 80%;
-        padding: 2%;
-    }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {

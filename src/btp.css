@@ -516,5 +516,69 @@ iframe {
 }
     
 
+/*** RESPONSIVE **/
+
+
+/* PAGE ACCUEIL*/
+
+@media screen and (max-width:480px) {
+    body {
+        text-align: center;
+    }
+    header img {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .header {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    header nav {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    header nav a {
+        display: block;
+        width: auto;
+    }
+
+    .container1 {
+        display: block;
+        padding: 2%;
+    }
+
+    .container1 p {
+        font-size: 1em;
+    }
+
+    .container1 img {
+        width: 80vw;
+    }
+
+    #lastsection{
+        display: block;
+    }
+
+    .container2 {
+        display: block;
+        width: 90%;
+        margin: 5% auto;
+        padding: 1%;
+    }
+
+    footer {
+        display: block;
+        height: auto;
+    }
+
+    .adresslogo, footer nav, .socialnetwork {
+        width: 100%;
+    }
+}
+ 
 
 

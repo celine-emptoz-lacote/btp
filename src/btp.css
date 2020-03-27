@@ -38,7 +38,7 @@ header nav {
     justify-content: space-evenly;
     background-color: #ffe533; 
     text-align: center;
-    
+    width: 100%;
 }
 
 header nav a {
@@ -257,9 +257,14 @@ span {
     animation:30s slider  ease infinite;
     display:flex;
     width:100%;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
     
 
+<<<<<<< HEA
+=======
+
+>>>>>>> b6a699592e9e251aafd39115027aab431dbcd9d1
 
 @keyframes slider{
     0%{
@@ -273,7 +278,7 @@ span {
         left:-100%;
     }
     30%{
-        left:-100%
+        left:-100%;
     }
     40%{
         left: -200%;
@@ -315,8 +320,6 @@ form {
 label, input {
     display: inline-block;
     margin: 1%;
-    
-    
 }
 
 label {
@@ -521,10 +524,15 @@ iframe {
 
 /* PAGE ACCUEIL*/
 
+
+
+
+
 @media screen and (max-width:480px) {
     body {
         text-align: center;
     }
+    
     header img {
         width: 50%;
         text-align: center;
@@ -532,18 +540,14 @@ iframe {
     
     .header {
         display: block;
-        width: 100%;
         margin-left: 0;
-    }
-
-    header nav {
         width: 100%;
-        font-size: 11px;
     }
 
     header nav a {
         display: block;
         width: auto;
+        font-size: 11px;
     }
 
     .container1 {

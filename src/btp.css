@@ -578,6 +578,10 @@ iframe {
     .adresslogo, footer nav, .socialnetwork {
         width: 100%;
     }
+
+    .socialnetwork a {
+        margin: 6%;
+    }
 }
  
 

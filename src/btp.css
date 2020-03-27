@@ -247,7 +247,7 @@ span {
 
 #slide img{
     width: 100%;
-    
+    float: left;
   
 }
 #slide figure {
@@ -584,5 +584,24 @@ iframe {
     }
 }
  
+/*PAGE PRESENTATION*/
+
+@media screen and (max-width:480px){
+   #main2 img{
+      width: 20vw;
+   }
+   #main2 ul{
+       padding: 0;
+       margin-right: 2em;
+
+   }
+   #main2 h2{
+       padding: 3%;
+   }
+
+
+
+
+}
 
 

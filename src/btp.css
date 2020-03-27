@@ -232,11 +232,10 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-sizing: border-box;
 
 }  
 #slide{
-    border:5px solid white;
+    border:5px solid #ffe533;
     box-shadow:0 0 5px hsla(0,0%,0%,.5);
     overflow:hidden;
     width: 60%;
@@ -260,30 +259,14 @@ span {
     animation:30s slider  ease infinite;
     display:flex;
     width:100%;
-    box-sizing: border-box;
+    box-sizing: border-box;}
     
-    
-
-}
 
  img{
     width: 100%;
     float:left;
    
 }
-figcaption{
-    position: absolute;
-    left: 0;
-    bottom:0;
-    text-align: center;
-    color: white;
-    background-color:hsla(0,0%,0%,.35) ;
-    width: 100%;
-}
-
-
-
-
 
 @keyframes slider{
     0%{

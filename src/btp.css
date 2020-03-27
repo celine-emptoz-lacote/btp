@@ -645,7 +645,7 @@ iframe {
     }
 
     #mentions{
-        width: 5%;
+        width: 3%;
     }
 
     .adressContainer {
@@ -665,6 +665,12 @@ iframe {
     .contact a {
         width: 80%;
         padding: 2%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .mentions {
+        width: 35%;
     }
 }
 

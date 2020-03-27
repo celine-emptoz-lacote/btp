@@ -546,7 +546,7 @@ iframe {
     header nav a {
         display: block;
         width: auto;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .container1 {
@@ -586,6 +586,89 @@ iframe {
         margin: 6%;
     }
 }
+
+/* PAGE PRESENTATION*/
+
+@media screen and (max-width:480px) {
+    #main2 h2 {
+        width: 100%; 
+    }
+
+    .iconSection {
+        display: none;
+    }
+
+    .flex1 {
+        display: block;
+    }
+
+    .flex {
+        display: block;
+    }
+    #macon img, #carreleur img, #peintre img, #couvreur img, #electricien img, #secretaire img {
+        width: 85%;
+        margin: 5%;
+    }
+}
+
+/* PAGE CONTACT*/
  
+@media screen and (max-width:480px) {
+    form {
+        width: 100%;
+        text-align: left;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    input {
+        width: 90%;
+    }
+
+    textarea {
+        width: 90%;
+    }
+    #demande {
+        width: 90.5%;
+    }
+
+    .mentions {
+        width: 50%;
+    }
+    
+    input[type="checkbox"] {  
+        width: 15%;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+    }
+
+    #mentions{
+        width: 5%;
+    }
+
+    .adressContainer {
+        display: block;
+    }
+
+    .adressContainer div {
+        width: 90%;
+        margin: 1% auto;
+    }
+
+    iframe {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .contact a {
+        width: 80%;
+        padding: 2%;
+    }
+}
 
 

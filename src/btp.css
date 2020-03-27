@@ -422,12 +422,31 @@ iframe {
 /** PAGE EQUIPE **/
 
 .equipe {
+    padding-bottom: 1%;
     text-align: center;
 }
 
+.equipe h1 {
+    margin-top: 0%;
+    padding-top: 4%;
+   
+}
+
+.nom {
+    font-family: 'Kavoon', cursive;
+    font-size: 35px;
+}
+
+.equipe p {
+    width: 85%;
+    margin: 0 auto 4%;
+    
+}
+
 .iconSection {
-    width: 90%;
     margin: auto;
+    margin-top:1%;
+    padding-top: 1%;
     background-color: #fde274;
 }
 
@@ -448,35 +467,52 @@ iframe {
     font-size: 30px;
 }
 
+.equipe section {
+    padding-top: 0.5%;
+    border-radius: 10px;
+}
 
-
-#directeur div ,  #carreleur div ,   #couvreur div,  #secretaire div{
-    display: flex;
-    align-items: center;
-    background-color: #fde274;
-    border-bottom: 4px solid grey;
-
+#directeur , #carreleur, #couvreur , #secretaire {
+    background-color: #ffeb9d;
+    border-radius: 10px;
+    width: 95%;
+    margin: 4% auto;
+    
 }
 
 #directeur div {
-    padding: 1%;
     justify-content: center;
 }
 
-#macon div , #peintre div ,#electricien div  {
+.flex {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: #fde274;
-    border-bottom: 4px solid grey;
+}
+
+.flex1 {
+    display: flex;
+    align-items: center;
+}
+
+#macon div , #peintre div ,#electricien div  {
+    background-color: #cfcfcf;
+    border-radius: 10px;
 }
 
 
 #directeur img {
     width: 20%;
 }
+
+
 #macon img , #carreleur img , #peintre img , #couvreur img , #electricien img , #secretaire img{
     width: 35%;
+    margin: 0.5%;
+    padding: 0.5%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
 }
 
 @keyframes scale-in-hor-right {

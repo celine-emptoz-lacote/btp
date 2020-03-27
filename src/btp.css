@@ -259,14 +259,11 @@ span {
     animation:30s slider  ease infinite;
     display:flex;
     width:100%;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
     
 
-img{
-    width: 100%;
-    float:left;
-   
-}
+
 
 @keyframes slider{
     0%{
@@ -280,7 +277,7 @@ img{
         left:-100%;
     }
     30%{
-        left:-100%
+        left:-100%;
     }
     40%{
         left: -200%;
@@ -526,5 +523,69 @@ iframe {
 
 /* PAGE ACCUEIL*/
 
+
+
+
+
+@media screen and (max-width:480px) {
+    body {
+        text-align: center;
+    }
+    
+    header img {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .header {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    header nav a {
+        display: block;
+        width: auto;
+        font-size: 11px;
+    }
+
+    .container1 {
+        display: block;
+        padding: 2%;
+    }
+
+    .container1 p {
+        font-size: 1em;
+    }
+
+    .container1 img {
+        width: 80vw;
+    }
+
+    #lastsection{
+        display: block;
+    }
+
+    .container2 {
+        display: block;
+        width: 90%;
+        margin: 5% auto;
+        padding: 1%;
+    }
+
+    footer {
+        display: block;
+        height: auto;
+    }
+
+    .adresslogo, footer nav, .socialnetwork {
+        width: 100%;
+    }
+
+    .socialnetwork a {
+        margin: 6%;
+    }
+}
+ 
 
 

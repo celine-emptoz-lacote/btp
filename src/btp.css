@@ -609,6 +609,34 @@ iframe {
 }
 
 /* PAGE CONTACT*/
+@media screen and (max-width:480px) {
+    .contact p {
+        width: 80%;
+        margin: auto;
+    }
+
+    form {
+        width: 90%;
+        margin: auto;
+    }
+    label {
+        width: 100%;
+    }
+    input {
+        width: 95%;
+    }
+    #demande {
+        width: 95.5%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .mentions {
+        width: 35%;
+    }
+
+   
+    
+}
  
 /*PAGE PRESENTATION ENTREPRISE*/
 
@@ -633,21 +661,14 @@ iframe {
        padding: 3%;
    }
 
-<<<<<<< HEAD
     #mentions{
         width: 3%;
     }
-=======
->>>>>>> c2635f306a8540eaefbd2db25a96cd23575bc68b
 
 
 
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
-    .mentions {
-        width: 35%;
-    }
-}
+
 
 

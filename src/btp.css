@@ -10,6 +10,10 @@ bois : #df9050
 
 ***/
 
+/*FONT*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/*FONT*/
+
 body {
     margin: 0;
     padding: 0;
@@ -58,9 +62,7 @@ header nav a:hover {
 
 /*MAIN*/
 
-/*FONT*/
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-/*FONT*/
+
 
 main{
     background:#e6e6e6;

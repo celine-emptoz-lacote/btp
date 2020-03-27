@@ -543,7 +543,7 @@ iframe {
     header nav a {
         display: block;
         width: auto;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .container1 {
@@ -583,12 +583,46 @@ iframe {
         margin: 6%;
     }
 }
+
+/* PAGE PRESENTATION*/
+
+@media screen and (max-width:480px) {
+    #main2 h2 {
+        width: 100%; 
+    }
+
+    .iconSection {
+        display: none;
+    }
+
+    .flex1 {
+        display: block;
+    }
+
+    .flex {
+        display: block;
+    }
+    #macon img, #carreleur img, #peintre img, #couvreur img, #electricien img, #secretaire img {
+        width: 85%;
+        margin: 5%;
+    }
+}
+
+/* PAGE CONTACT*/
  
-/*PAGE PRESENTATION*/
+/*PAGE PRESENTATION ENTREPRISE*/
 
 @media screen and (max-width:480px){
    #main2 img{
-      width: 20vw;
+      width: 80%;
+      margin-top: 2%;
+     
+     
+   }
+   .picpg2{
+       display: flex;
+       flex-direction: column;
+       margin-top: 2%;
    }
    #main2 ul{
        padding: 0;

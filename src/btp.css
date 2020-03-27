@@ -230,11 +230,72 @@ span {
 
 #main3{
     display: flex;
+    align-items: center;
+
+}
+
+#slide{
+    border:5px solid white;
+    box-shadow:0 0 5px hsla(0,0%,0%,.5);
+    overflow:hidden;
+    width: 60%;
+    height: 30%;
+    margin:2rem auto;
+    position:relative;
     
+}
+
+#slide img{
+    width: 100%;
+    float:left;
+    
+   
+    
+}
+#slide figure{
+    position: relative;
+    margin: 0;
+    left: 0;
+    animation:30s slider  ease infinite;
+    display:flex;
+    width:100%;
+    box-sizing: border-box;
+    
+    
+
 }
 
 
 
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+     20%{
+        left:0;
+
+    }
+    25%{
+        left:-100%;
+    }
+    50%{
+        left:-100%
+    }
+    75%{
+        left: -200%;
+    }
+    85%{
+        left: -300%;
+    }
+    95%{
+        left:-300% ;
+    }
+    100%{
+        left:400%}
+   
+    
+	
+}
 
 /* PAGE DE CONTACT */
 
